@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Expenzo/app/%28auth%29/layout.js"],"sourcesContent":["const AuthLayout = ({ children }) => {\r\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;\r\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBAAO,8OAAC;QAAI,WAAU;kBAA6B;;;;;;AACrD;uCAEe","debugId":null}}]
-}

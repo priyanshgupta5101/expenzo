@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Expenzo/app/%28main%29/layout.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { Authenticated } from \"convex/react\";\r\nimport React from \"react\";\r\n\r\nconst MainLayout = ({ children }) => {\r\n  return (\r\n    <Authenticated>\r\n      <div className=\"container mx-auto mt-24 mb-20 px-4\">{children}</div>\r\n    </Authenticated>\r\n  );\r\n};\r\n\r\nexport default MainLayout;\r\n"],"names":[],"mappings":";;;;;AAEA;AAAA;AACA;AAHA;;;;AAKA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBACE,8OAAC,+KAAa;kBACZ,cAAA,8OAAC;YAAI,WAAU;sBAAsC;;;;;;;;;;;AAG3D;uCAEe","debugId":null}}]
-}

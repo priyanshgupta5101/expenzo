@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Expenzo/components/convex-client-provider.jsx"],"sourcesContent":["\"use client\";\n\nimport { ConvexReactClient } from \"convex/react\";\n\nimport { useAuth } from \"@clerk/nextjs\";\nimport { ConvexProviderWithClerk } from \"convex/react-clerk\";\n\nconst convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL);\n\nexport function ConvexClientProvider({ children }) {\n  return (\n    <ConvexProviderWithClerk client={convex} useAuth={useAuth}>\n      {children}\n    </ConvexProviderWithClerk>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAAA;;;;;;AAGA;AAAA;AALA;;;;;AAOA,MAAM,SAAS,IAAI,6KAAiB;AAE7B,SAAS,qBAAqB,EAAE,QAAQ,EAAE;IAC/C,qBACE,8OAAC,6MAAuB;QAAC,QAAQ;QAAQ,SAAS;kBAC/C;;;;;;AAGP","debugId":null}}]
-}

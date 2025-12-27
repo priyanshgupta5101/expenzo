@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///D:/Expenzo/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.jsx"],"sourcesContent":["import { SignIn } from \"@clerk/nextjs\";\n\nexport default function Page() {\n  return <SignIn />;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,gMAAM;;;;;AAChB","debugId":null}}]
-}
